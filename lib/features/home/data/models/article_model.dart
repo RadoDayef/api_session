@@ -3,8 +3,8 @@ import 'package:api_session/features/home/data/models/article_source_model.dart'
 class ArticleModel {
   DateTime? publishedAt;
   ArticleSourceModel source;
-  String url, title, content;
-  String? author, urlToImage, description;
+  String url, title;
+  String? content, author, urlToImage, description;
 
   ArticleModel({required this.source,required this.publishedAt, required this.url, required this.title, required this.author, required this.content, required this.urlToImage, required this.description});
 
